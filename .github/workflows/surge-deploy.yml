@@ -33,8 +33,7 @@ jobs:
       - name: GitHub Action for Yarn
         uses: Borales/actions-yarn@v2.3.0
         with:
-        # Yarn command
-        cmd: install  
+         cmd: install # Yarn command  
    
       - name: createing build
         run: yarn build 
